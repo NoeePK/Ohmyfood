@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Shrikhand&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c3cfa4f88c.js" crossorigin="anonymous"></script>
     <link href="compiled/index.css" rel="stylesheet" type="text/css">
     <title>Ohmyfood</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
             <img src="images/logo/ohmyfood@2x.svg" alt="Logo de Ohmyfood">
         </div>
-        <div class="localisation">
-            <i></i>
-            <p>Paris, Belleville</p>
-        </div>
+
         <nav>
-            <h1>Réserver le menu qui vous convient</h1>
-            <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
-            <button><a href="#restaurants">Explorer nos restaurants</a></button>
+            <div class="localisation">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Paris, Belleville</p>
+            </div>
+            <div class="explore">
+                <h1>Réservez le menu qui vous convient</h1>
+                <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+                <button><a href="#restaurants">Explorer nos restaurants</a></button>
+            </div>
         </nav>
     </header>
     <section>
         <h2>Fonctionnement</h2>
-        <div class="notice">
-            <i></i>
-            <i></i>
+        <div class="box">
+            <i class="fa-solid fa-circle-1"></i>
+            <i class="fa-solid fa-mobile-screen"></i>
             <p>Choisissez un restaurant</p>
         </div>
-        <div class="notice">
-            <i></i>
-            <i></i>
+        <div class="box">
+            <i class="fa-solid fa-circle-2"></i>
+            <i class="fa-solid fa-list"></i>
             <p>Composez votre menu</p>
         </div>
-        <div class="notice">
-            <i></i>
-            <i></i>
+        <div class="box">
+            <i class="fa-solid fa-circle-3"></i>
+            <i class="fa-solid fa-store"></i>
             <p>Dégustez au restaurant</p>
         </div>
     </section>
@@ -47,8 +58,8 @@
             <div class="newItem">Nouveau</div>
             <div class="description">
                 <div>
-                <h3>La palette du goût</h3>
-                <p>Ménilmontant</p>
+                    <h3>La palette du goût</h3>
+                    <p>Ménilmontant</p>
                 </div>
                 <i></i>
             </div>
@@ -58,8 +69,8 @@
             <div class="newItem">Nouveau</div>
             <div class="description">
                 <div>
-                <h3>La note enchantée</h3>
-                <p>Charonne</p>
+                    <h3>La note enchantée</h3>
+                    <p>Charonne</p>
                 </div>
                 <i></i>
             </div>
@@ -68,8 +79,8 @@
             <img src="images/restaurants/" alt="Photo d'un plat servi chez à la française">
             <div class="description">
                 <div>
-                <h3>à la française</h3>
-                <p>Cité Rouge</p>
+                    <h3>à la française</h3>
+                    <p>Cité Rouge</p>
                 </div>
                 <i></i>
             </div>
@@ -78,8 +89,8 @@
             <img src="images/restaurants/" alt="Photo d'un plat servi chez Le délice des sens">
             <div class="description">
                 <div>
-                <h3>Le délice des sens</h3>
-                <p>Folie-Méricourt</p>
+                    <h3>Le délice des sens</h3>
+                    <p>Folie-Méricourt</p>
                 </div>
                 <i></i>
             </div>
@@ -91,12 +102,14 @@
             <li>
                 <a href="#">
                     <i></i>
-                    <p>Proposer un restaurant</p></a>
+                    <p>Proposer un restaurant</p>
+                </a>
             </li>
             <li>
                 <a href="#">
                     <i></i>
-                    <p>Devenir partenaire</p></a>
+                    <p>Devenir partenaire</p>
+                </a>
             </li>
             <li>
                 <a href="#">Mentions légales</a>
@@ -108,4 +121,5 @@
         </ul>
     </footer>
 </body>
+
 </html>

@@ -1,0 +1,34 @@
+header {
+    text-align: center;
+}
+
+.logo {
+    padding-bottom: 2%;
+}
+
+nav {
+    background-color: $shadows-light;
+}
+
+.localisation {
+    background-color: $shadows;
+    border-top: 3px solid darken($color: $shadows, $amount: 03%);
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    i {
+        padding-right: 4%;
+    }
+}
+
+.explore {
+    padding: 5% 20% 10% 20%;
+}
+
+
+
