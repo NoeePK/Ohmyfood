@@ -15,3 +15,17 @@ button {
     }
 }
 
+
+.newItem {
+    color: darken($color: $tertiary, $amount: 40%);
+    background-color: $tertiary;
+    text-align: center;
+    font-weight: bold;
+    font-size: .8em;
+    padding: 2%;
+    width: 70px;
+    border-radius: 3px;
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
