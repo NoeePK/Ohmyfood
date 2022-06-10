@@ -3,25 +3,28 @@ footer {
 
     ul {
         list-style-type: none;
-
-        li > a {
-            text-decoration: none;
-            color: white;
-            font-size: .9em;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding-bottom: 1%;
-
-            p {
-                margin: 0;
-                padding-left: 2%;
-            } 
-        }  
     }
 }
 
 h4 {
     padding-top: 4%;
+}
 
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: .9em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1%;
+
+    p {
+        margin: 0;
+        padding-left: 2%;
+    }
+}
+
+.fa-utensils {
+    margin-right: 1%;
 }
