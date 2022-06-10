@@ -1,3 +1,5 @@
+/*Button principal*/
+
 button {
     background: linear-gradient(to bottom right, $secondary, $primary );
     padding: 18px;
@@ -15,6 +17,7 @@ button {
     }
 }
 
+/*Button "Nouveau"*/
 
 .newItem {
     color: darken($color: $tertiary, $amount: 40%);
@@ -28,4 +31,39 @@ button {
     position: absolute;
     top: 3%;
     right: 3%;
+}
+
+/*Button "J'aime"*/
+
+.heart-empty,
+.heart-full {
+    font-size: 1.6em;
+    right: 25px;
+    transition: all 650ms ease-in-out;
+}
+
+.heart-empty {
+    color: grey;
+    z-index: 1;
+    position: absolute;
+
+    &:hover {
+        opacity: 0;
+        z-index: 2;
+    }
+}
+
+.heart-full {
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    background: -webkit-linear-gradient($primary, $secondary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    &:hover {
+        opacity: 1;
+        z-index: 1;
+    }
 }
