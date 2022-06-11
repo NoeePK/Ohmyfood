@@ -8,6 +8,24 @@ h1, h2 {
     font-size: 1.6em;
 }
 
+#titleRestaurant {
+    font-family: 'Shrikhand', cursive;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+article h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.2em;
+    padding-bottom: 2%;
+
+    .greenLine {
+        border-bottom: 3px solid $tertiary;
+        padding-bottom: 1%;
+    }
+}
+
 h3 {
     font-size: 1.1em;
     padding: 0;
