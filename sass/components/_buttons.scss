@@ -1,6 +1,6 @@
 /*Button principal*/
 
-button {
+button:not(#goBack) {
     background: linear-gradient(to bottom right, $secondary, $primary );
     padding: 18px;
     border: none;
@@ -71,5 +71,26 @@ button {
     &:hover {
         opacity: 1;
         z-index: 1;
+    }
+}
+
+/*Button go back*/
+
+#goBack {
+    background: none;
+    border: none;
+    font-size: 1.8em;margin-left: -50px;
+    position: absolute;
+    left: 80px;
+    top: 25px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+
+    &:hover {
+        color: $primary;
+
+        &:active {
+            color: $secondary;
+        }
     }
 }

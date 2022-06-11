@@ -19,20 +19,25 @@ section {
     justify-content: space-between;
 }
 
+/*Modèle des boxes*/
+
 .box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
     border: none;
     border-radius: 15px;
-    background-color: $shadows-light;
     @include boxShadow;
     padding: 3%;
     margin-left: 3%;
     margin-bottom: 5%;
     font-weight: bold;
     cursor: pointer;
+}
+
+.noticeBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: $shadows-light;
     transition: all 350ms ease-in-out;
 
     i {
@@ -41,7 +46,7 @@ section {
     }
 }
 
-.box:hover {
+.noticeBox:hover {
     background-color: rgb(245, 237, 255);
 
     i {
@@ -58,6 +63,15 @@ section {
     position: absolute;
     left: 20px;
 }
+
+/*MenuBox*/
+
+.menuBox {
+    background-color: white;
+
+}
+
+/*Cartes accueil*/
 
 #restaurants {
     background-color: $shadows-light;
@@ -100,3 +114,14 @@ section {
     }
 }
 
+/*Bg image pages menu*/
+
+#menuImg {
+    max-width: 700px;
+    z-index: 2;
+    img {
+        width: 100%;
+        max-width: 700px;
+        object-fit: cover;
+    }
+}

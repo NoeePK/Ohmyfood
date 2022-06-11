@@ -5,3 +5,9 @@ header {
         padding: 3% 0;
     }
 }
+
+.withBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
