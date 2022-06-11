@@ -22,6 +22,13 @@ button:not(#goBack) {
     }
 }
 
+#orderBtn {
+    color: white;
+    font-size: 1.1em;
+    width: 45%;
+    margin: 0 auto;
+}
+
 /*Button "Nouveau"*/
 
 .newItem {
@@ -45,6 +52,7 @@ button:not(#goBack) {
     font-size: 1.6em;
     right: 25px;
     bottom: 20px;
+    cursor: pointer;
     transition: all 650ms ease-in-out;
 }
 
@@ -72,6 +80,12 @@ button:not(#goBack) {
         opacity: 1;
         z-index: 1;
     }
+}
+
+#MenuLikeBtn {
+    position: absolute;
+    right: 20px;
+    bottom: 240px; 
 }
 
 /*Button go back*/
