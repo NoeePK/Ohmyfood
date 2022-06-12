@@ -1,6 +1,6 @@
 /*Button principal*/
 
-button:not(#goBack) {
+button {
     background: linear-gradient(to bottom right, $secondary, $primary );
     padding: 18px;
     border: none;

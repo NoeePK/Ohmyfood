@@ -64,12 +64,6 @@ section {
     left: 20px;
 }
 
-/*MenuBox*/
-
-.menuBox {
-    background-color: white;
-
-}
 
 /*Cartes accueil*/
 
@@ -133,7 +127,59 @@ section {
     border-radius: 35px 35px 0 0;
     margin-top: -40px;
     padding-top: 8px;
-    
+}
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: none;
+    padding: 0%;  
+}
+
+.menuBox {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0%;
+    padding-bottom: 0%;
+}
+
+menuBox:hover {
+    .checkAnimation {
+
+    }
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    p:first-child {
+        font-weight: normal;
+        margin-right: auto;
+    }
+}
+
+.price {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.checkAnimation {
+    position: relative;
+    background-color: $tertiary;
+}
+
+.menuBoxBtn {
+    position: absolute;
+    right: 6px;
+    bottom: 30px;
     
 }
+
+
