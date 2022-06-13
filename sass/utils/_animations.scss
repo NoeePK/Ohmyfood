@@ -1,0 +1,44 @@
+/*Delais entre l'apparition des box menu*/
+
+@keyframes menuBoxes {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.menuBox {
+    transform: scale(0);
+    animation: menuBoxes 900ms both;
+}
+
+.delay1 {
+    animation-delay: 100ms;
+}
+
+.delay2 {
+    animation-delay: 200ms;
+}
+
+.delay3 {
+    animation-delay: 300ms;
+}
+
+.delay4 {
+    animation-delay: 350ms;
+}
+
+.delay5 {
+    animation-delay: 370ms;
+}
+
+.delay6, .delay7 {
+    animation-delay: 390ms;
+}
+
+.delay8, .delay9 {
+    animation-delay: 400ms;
+}

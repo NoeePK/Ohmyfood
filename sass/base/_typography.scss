@@ -50,4 +50,6 @@ body {
 
 h3, p {
     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
