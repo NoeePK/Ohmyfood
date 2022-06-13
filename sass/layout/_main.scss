@@ -127,6 +127,7 @@ section {
     border-radius: 35px 35px 0 0;
     margin-top: -40px;
     padding-top: 8px;
+    position: relative;
 }
 
 .menuBox {
@@ -137,12 +138,9 @@ section {
     margin-left: 0%;
     padding-bottom: 0%;
     height: 80px;
-}
-
-menuBox:hover {
-    .checkAnimation {
-        opacity: 1;
-    }
+    position: relative;
+    transition: all 400ms ease-in-out;
+    animation-fill-mode: both;
 }
 
 .flex-row {
@@ -160,7 +158,6 @@ menuBox:hover {
     align-items: flex-end;
     text-align: right; 
     font-weight: bold;
-    margin-right: auto;
-    
+    transition: all 400ms ease-in-out;
 }
 

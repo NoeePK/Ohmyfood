@@ -47,3 +47,7 @@ h4 {
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+h3, p {
+    text-overflow: ellipsis;
+}
