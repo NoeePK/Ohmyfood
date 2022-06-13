@@ -129,16 +129,6 @@ section {
     padding-top: 8px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-fieldset {
-    border: none;
-    padding: 0%;  
-}
-
 .menuBox {
     background-color: white;
     display: flex;
@@ -146,11 +136,12 @@ fieldset {
     justify-content: space-between;
     margin-left: 0%;
     padding-bottom: 0%;
+    height: 80px;
 }
 
 menuBox:hover {
     .checkAnimation {
-
+        opacity: 1;
     }
 }
 
@@ -167,19 +158,9 @@ menuBox:hover {
 
 .price {
     align-items: flex-end;
-    text-align: right;
-}
-
-.checkAnimation {
-    position: relative;
-    background-color: $tertiary;
-}
-
-.menuBoxBtn {
-    position: absolute;
-    right: 6px;
-    bottom: 30px;
+    text-align: right; 
+    font-weight: bold;
+    margin-right: auto;
     
 }
-
 
