@@ -1,3 +1,52 @@
+/*Page de chargement*/
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.loaderWrapper {
+    position: absolute;
+    background-color: $tertiary;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: loader infinite 10s alternate;
+}
+
+.heart {
+    width: 60px;
+    height: 60px;
+    animation: loader infinite 300ms alternate;
+
+    .heart-full {
+        opacity: 1;
+    }
+
+}
+
+.heart-1 {
+    animation-delay: 30ms;
+}
+
+.heart-2 {
+ animation-delay: 60ms;
+}
+
+.heart-3 {
+    animation-delay: 90ms;
+}
+
+@keyframes loader {
+    100% {
+        transform: translateX(20px);
+    }
+}
+
 /*Delais entre l'apparition des box menu*/
 
 @keyframes menuBoxes {
@@ -42,3 +91,5 @@
 .delay8, .delay9 {
     animation-delay: 400ms;
 }
+
+
