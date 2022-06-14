@@ -18,7 +18,7 @@ button {
 
     &:hover {
         background: linear-gradient(to bottom right, #ff79d9d8, #9256dcd8);
-        box-shadow: 3px 8px 10px 1px rgb(189, 189, 189);
+        box-shadow: 8px 18px 10px 1px rgb(189, 189, 189);
     }
 }
 
@@ -51,7 +51,7 @@ button {
 .heart-full {
     font-size: 1.6em;
     right: 25px;
-    bottom: 20px;
+    bottom: 15px;
     cursor: pointer;
     transition: all 650ms ease-in-out;
 }

@@ -3,12 +3,13 @@ footer {
 
     ul {
         list-style-type: none;
+        padding-left: 7%;
     }
 }
 
 h4 {
     padding-top: 4%;
-    padding-left: 9%;
+    padding-bottom: 4%;
 }
 
 .link {
@@ -24,6 +25,19 @@ h4 {
         margin: 0;
         padding-left: 2%;
     }
+}
+
+.link:hover {
+    p {
+        text-decoration: underline $tertiary;
+    }
+    i {
+        color: $tertiary;
+    }
+}
+
+.linkOnly:hover {
+    text-decoration: underline $tertiary;
 }
 
 .fa-utensils {

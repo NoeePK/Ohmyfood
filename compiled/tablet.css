@@ -1,0 +1,66 @@
+@media screen and (min-width: 760px) {
+
+    /*Accueil*/
+
+    button {
+        padding: 35px;
+        font-size: 1.6em;
+    }
+
+    .noticeBox {
+        font-size: 1.6em;
+    }
+
+    #restaurants {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 800px;
+        padding-left: 5%;
+    }
+
+    #restaurants h2 {
+        flex-basis: 100%;
+    }
+
+    .card {
+        flex-basis: 40%;
+        width: 400px;
+        height: 280px;
+        transform: scale(1);
+        transition: all 350ms ease-in-out;
+    }
+
+    .card img {
+        width: 400px;
+    }
+
+    .card:hover {
+        transform: scale(1.2);
+    }
+
+    .description {
+        font-size: 1.4em;
+        padding-top: 3%;
+    }
+
+    footer h4 {
+        font-size: 2em;
+    }
+
+    .link {
+        font-size: 1.5em;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
