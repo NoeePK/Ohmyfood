@@ -1,7 +1,63 @@
 @media screen and (min-width: 992px) {
-    nav {
-        background-color: grey;
-    }
     
+    body {
+        max-width: 1000px;
+        margin: auto;
+        font-size: larger;
+    }
+
+    header img {
+    width: 400px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .explore {
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .localisation {
+    border-radius: 0 0 20px 20px;
+  }
+
+  #notice {
+    background-color: #f5f5f5fa;
+  }
+
+  .noticeBox {
+    background-color: white;
+  }
+
+  .noticeNumber {
+    padding: 0 9px;
+  }
+
+  #restaurants {
+    background-color: #EDEDED;
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .card {
+    width: 95%;
+    height: fit-content;
+    
+  }
+
+  .card>a>img {
+    max-width: 800px;
+    height: 500px;
+  }
+
+  .card:hover {
+    transform: none;
+    opacity: 0.8;
+  }
+
 
 }
