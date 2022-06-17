@@ -69,14 +69,13 @@
 
 body {
   background-color: white;
-  font-size: larger;
 }
 
 #titleRestaurant {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
-#menuImg {
+#Palette, #Note, #France, #Delice {
   background-size: contain;
   background-position: 50%;
   margin: auto;

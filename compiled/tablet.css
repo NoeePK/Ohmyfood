@@ -58,20 +58,28 @@
 
 /*Pages menu*/
 
-body {
-    font-size:larger
-}
+
 
 header img {
     width: 300px;
 }
 
-#menuImg {
+#Palette, #Note, #France, #Delice {
     height: 500px;
+    background-size: contain;
+    background-position: 50%;
+    margin: auto;
+    max-width: 500px;
 }
 
+.menuSection {
+    width: 80%;
+    margin: auto;
+  }
+
+
 #titleRestaurant {
-    font-size: 2.5em;
+    font-size: 2.1em;
 }
 
 #MenuLikeBtn {

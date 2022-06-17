@@ -115,18 +115,17 @@ section {
 /*Pages menu*/
 /*Bg image*/
 
-#menuImg {
-    flex-basis: 100%;
-    height: 300px;
-    
+#Palette, #Note, #France, #Delice {
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: -1;
+    height: 400px;
+    max-width: 600px;
+    flex-basis: 100%;
     margin-bottom: -50px;
 }
 
 #Palette {
-    background-image: url(/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-image: url(/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg); 
 }
 
 #Note {
