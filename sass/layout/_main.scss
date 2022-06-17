@@ -127,13 +127,20 @@ section {
 
 /*Section menu*/
 
+
 .menuSection {
     background-color: $shadows-light;
     border-radius: 35px 35px 0 0;
     margin-top: -40px;
     padding-top: 8px;
     position: relative;
+
+    article {
+        margin-bottom: 5%;
+    }
 }
+
+
 
 .menuBox {
     background-color: white;

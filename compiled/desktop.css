@@ -1,5 +1,7 @@
 @media screen and (min-width: 992px) {
-    
+
+  /*Version accueil*/  
+
     body {
         max-width: 1000px;
         margin: auto;
@@ -62,5 +64,33 @@
   .newItem {
     padding-right: 3%;
   }
+
+/*Version pages menu*/
+
+body {
+  background-color: white;
+  font-size: larger;
+}
+
+#titleRestaurant {
+  font-size: 2.5em;
+}
+
+#menuImg {
+  background-size: contain;
+  background-position: 50%;
+  margin: auto;
+}
+
+.menuSection {
+  width: 90%;
+  margin: auto;
+}
+
+.menuBox {
+  height: 120px;
+  width: 80%;
+}
+
 
 }
