@@ -58,6 +58,42 @@
 
 /*Pages menu*/
 
+body {
+    font-size:larger
+}
+
+header img {
+    width: 300px;
+}
+
+#menuImg {
+    height: 500px;
+}
+
+#titleRestaurant {
+    font-size: 2.5em;
+}
+
+#MenuLikeBtn {
+    font-size: 1.6em;
+    top: 120px;
+}
+
+.menuBox {
+    padding-bottom: 4%;
+    height: 100px;
+    
+}
+
+.menuBox:hover .checkAnimation {
+    width: 90px;
+}
+
+.menuBox:hover .price {
+    margin-right: 95px;
+}
+
+}
 
 
 
