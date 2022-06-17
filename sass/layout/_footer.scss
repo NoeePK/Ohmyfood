@@ -9,7 +9,6 @@ footer {
 
 h4 {
     padding-top: 4%;
-    padding-bottom: 4%;
 }
 
 .link {
@@ -26,6 +25,9 @@ h4 {
         padding-left: 2%;
     }
 }
+
+// Underline seulement sur les textes,
+// pas sous les icons
 
 .link:hover {
     p {

@@ -2,6 +2,10 @@
 
     /*Accueil*/
 
+    header img {
+        width: 250px;
+    }
+
     button {
         padding: 35px;
         font-size: 1.6em;

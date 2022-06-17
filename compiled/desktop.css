@@ -40,7 +40,7 @@
     background-color: #EDEDED;
     max-width: 1000px;
     width: 100%;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
   }
 
   .card {
@@ -56,8 +56,11 @@
 
   .card:hover {
     transform: none;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
+  .newItem {
+    padding-right: 3%;
+  }
 
 }
