@@ -4,10 +4,9 @@ nav {
 }
 
 .localisation {
-    background-color: $shadows;
-    border-top: 3px solid darken($color: $shadows, $amount: 03%);
-    width: 100%;
-    padding: 2% 0;
+    background-color: darken($color: $shadows, $amount: 3%) ;
+    border-top: 3px solid darken($color: $shadows, $amount: 10%);
+    flex-basis: 100%;
     font-weight: bold;
     font-size: 1.3em;
     display: flex;
@@ -21,9 +20,5 @@ nav {
 }
 
 .explore {
-    padding: 5% 20% 10% 20%;
-
-    p {
-        padding: 6% 0;
-    }
+    padding: 5% 4% 14% 4%;
 }

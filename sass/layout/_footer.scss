@@ -7,14 +7,10 @@ footer {
     }
 }
 
-h4 {
-    padding-top: 4%;
-}
-
 .link {
     text-decoration: none;
     color: white;
-    font-size: .9em;
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,6 +29,7 @@ h4 {
     p {
         text-decoration: underline $tertiary;
     }
+
     i {
         color: $tertiary;
     }

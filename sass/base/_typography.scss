@@ -4,8 +4,21 @@
     src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Shrikhand&display=swap');
 }
 
-h1, h2 {
-    font-size: 1.6em;
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.explore h1 {
+    font-size: 33px;
+    padding: 0 6%;
+}
+
+.explore p {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 2em;
 }
 
 #titleRestaurant {
@@ -37,17 +50,22 @@ h3 + p {
 }
 
 
-h4 {
-    font-family: 'Shrikhand', cursive;
-    color: white;
-    font-weight: normal;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
 .menuBox h3, .menuBox p {
     text-overflow: ellipsis;
     white-space: nowrap;
  }
+
+
+/Titre footer/
+
+h4 {
+    font-family: 'Shrikhand', cursive;
+    color: white;
+    font-weight: normal;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    font-size: 25px;
+    margin: 0%;
+}
+
+
