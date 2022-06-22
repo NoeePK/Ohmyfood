@@ -21,33 +21,21 @@
         opacity: 1;
     }
 
-    40% {
-        opacity: .8;
-    }
-
-    60% {
-        opacity: .5;
-    }
-
-    90% {
-        opacity: .2;
-    }
-
     99% {
-        opacity: .1;
         width: 100%;
+        opacity: .8;
     }
 
     100% {
         opacity: 0;
-        width: 0px;
+        width: 0;
         z-index: -10;
         display: none;
     }
 }
 
-
 .heart {
+    position: fixed;
     width: 120px;
     height: 120px;
     font-size: 25px;
@@ -55,10 +43,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50% 20%;
+    margin: 50% 30%;
     animation: loader--heart 500ms alternate infinite;
-    animation-iteration-count: 6;
+    animation-iteration-count: 3;
     animation-delay: 0.50s;
+    animation-fill-mode: forwards;
 
     .heart-full {
         opacity: 1;
@@ -67,11 +56,19 @@
 
 @keyframes loader--heart {   
     0% {
-        transform: scale(0);
+        transform: scale(2);
+    }
+
+    50% {
+        transform: scale(4);
     }
     
+    75% {
+        transform: scale(2);
+    }
+
     100% {
-        transform : scale(4);
+        transform : scale(0);
     }
 }
 
