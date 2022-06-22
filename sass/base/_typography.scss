@@ -8,18 +8,17 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.explore h1 {
-    font-size: 33px;
-    padding: 0 6%;
-}
-
-.explore p {
-    font-size: 1.5em;
-}
-
 h2 {
-    font-size: 2em;
+    font-size: 1.8em;
 }
+
+h3 {
+    font-size: 1.1em;
+    padding: 0;
+    margin: 0;
+}
+
+/* Pages menu */
 
 #titleRestaurant {
     font-family: 'Shrikhand', cursive;
@@ -31,38 +30,32 @@ article h2 {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 1.2em;
-    padding-bottom: 2%;
 
     .greenLine {
-        border-bottom: 4px solid $tertiary;
+        border-bottom: 3px solid $tertiary;
+        padding-bottom: 6px;
     }
 }
 
-h3 {
-    font-size: 1.1em;
-    padding: 0;
-    margin: 0%;
-}
+
 
 h3 + p {
     font-weight: normal;
 }
 
-
 .menuBox h3, .menuBox p {
     text-overflow: ellipsis;
     white-space: nowrap;
- }
+}
 
 
-/Titre footer/
+/*Titre footer*/
 
 h4 {
     font-family: 'Shrikhand', cursive;
     color: white;
     font-weight: normal;
-    padding-top: 5%;
-    padding-bottom: 4%;
+    padding: 5% 0 1% 6%;
     font-size: 25px;
     margin: 0%;
 }
