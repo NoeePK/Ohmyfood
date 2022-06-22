@@ -145,7 +145,6 @@ section {
 }
 
 
-
 /*Section menu*/
 
 
@@ -168,7 +167,7 @@ section {
     justify-content: space-between;
     border-radius: 15px;
     margin-left: 0%;
-    padding: 3% 4% 0 3%;
+    padding: 3% 4% 3% 3%;
     height: 80px;
     position: relative;
     transition: all 400ms ease-in-out;    
@@ -179,17 +178,23 @@ section {
 .flex-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    font-size: 18px;
+
+    p {
+        margin-top: 1%;
+    }
+    
 
     p:first-child {
         font-weight: normal;
-        margin-right: auto;
+        
     }
 }
 
 .price {
     align-items: flex-end;
     text-align: right; 
+    margin-left: auto;
     font-weight: bold;
     transition: all 400ms ease-in-out;
 }

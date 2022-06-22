@@ -37,17 +37,9 @@ article h2 {
     }
 }
 
-
-
-h3 + p {
-    font-weight: normal;
+.menuBox h3 {
+    font-size: 20px;
 }
-
-.menuBox h3, .menuBox p {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
 
 /*Titre footer*/
 
