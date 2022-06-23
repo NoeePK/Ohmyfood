@@ -152,15 +152,16 @@ button {
     }
 
     .price {
-        margin-right: 68px;
+        margin-right: 70px;
+        padding-left: 10px;
     }
 
     p:first-child {
         text-overflow: ellipsis;
         white-space: nowrap;
-        overflow:hidden;
-        max-height: 22px;
+        overflow: hidden;
+        
 
-        /*le mot revient à la ligne quand l'animation disparait*/ 
+         
     }
 }

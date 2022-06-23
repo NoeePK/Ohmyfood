@@ -133,7 +133,7 @@ section {
 }
 
 #Note {
-    background-image: url(/images/restaurants/Note_medium.jpg);
+    background-image: url(/images/restaurants/Note_recadre.jpg);
 }
 
 #France {
@@ -170,7 +170,9 @@ section {
     padding: 3% 4% 3% 3%;
     height: 80px;
     position: relative;
-    transition: all 400ms ease-in-out;    
+    transition: all 400ms ease-in-out;
+    
+    
 }
 
 
@@ -187,6 +189,9 @@ section {
 
     p:first-child {
         font-weight: normal;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
         
     }
 }
