@@ -23,9 +23,9 @@
     background-color: transparent;
     background-image: url(/images/restaurants/banner-desktop.png);
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     height: fit-content;
-    max-width: 1250px;
     width: 100%;
     margin: 0 auto;
   }
@@ -50,40 +50,49 @@
   /* Notice */
 
   #notice {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-
     background-color: #f5f5f5fa;
   }
-
-  #notice h2 {
-    display: block;
-  }
-
+  
   .noticeBox {
     background-color: white;
+    margin: 2% 0 2% 1%;
+    padding: 1%;
+    width: 400px;
+  }
+
+  .noticeBox i {
+    margin: 0 5%;
   }
 
   .noticeNumber {
-    padding: 0 9px;
+    padding: 0 7px;
   }
 
-  #restaurants {
-    background-color: #EDEDED;
-    
+  /* Commun aux deux sections */
+
+  #notice, #restaurants {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  #notice h2, #restaurants h2 {
     width: 100%;
   }
 
-  .card {
-    width: 95%;
-    height: fit-content;
+  /* Cartes accueil */
 
+  #restaurants {
+    background-color: #EDEDED;
   }
 
-  .card>a>img {
-    max-width: 800px;
-    height: 500px;
+  .card {
+    flex-basis: 49%;
+    height: fit-content;
   }
 
   .card:hover {
@@ -95,7 +104,7 @@
     padding-right: 3%;
   }
 
-  /*Version pages menu*/
+  /*Pages menu*/
 
   body {
     background-color: white;

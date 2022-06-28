@@ -53,26 +53,33 @@
 
     /*Pages menu*/
 
+    body {
+        background-color: white ;
+    }
+
     header img {
         width: 300px;
     }
 
+    #goBack {
+        font-size: 35px;
+        top: 35px;
+    }
+
+    /* Background image */
     #Palette,
     #Note,
     #France,
     #Delice {
-        height: 500px;
-        background-size: contain;
-        background-position: 50%;
-        margin: auto;
-        max-width: 500px;
+        min-height: 500px;
+        background-size: cover;
     }
 
+    /* Section menu */
     .menuSection {
         width: 80%;
         margin: auto;
     }
-
 
     #titleRestaurant {
         font-size: 2.1em;
@@ -86,7 +93,6 @@
     .menuBox {
         padding-bottom: 4%;
         height: 100px;
-
     }
 
     .menuBox:hover .checkAnimation {
@@ -96,5 +102,4 @@
     .menuBox:hover .price {
         margin-right: 95px;
     }
-
 }
