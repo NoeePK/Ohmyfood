@@ -144,8 +144,7 @@ button {
 
     .checkAnimation {
         width: 68px;
-        
-        margin-left: auto;
+        margin-left: 120px;
         transition: all 400ms ease-in-out;
 
         i {
@@ -164,9 +163,8 @@ button {
         overflow: hidden;   
     }
 
-    h2 {
+    h3 {
         text-overflow: ellipsis;
         white-space: nowrap;
-        overflow: hidden;
     }
 }
