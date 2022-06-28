@@ -16,9 +16,6 @@
     }
 
     #restaurants {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
         max-width: 800px;
         padding-left: 5%;
     }
