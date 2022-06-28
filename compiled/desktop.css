@@ -147,16 +147,17 @@
   }
 
   .menuBox h3 {
-    margin-right: auto;
-  }
-
-  .menuBox:hover .checkAnimation {
-    margin-left: 70px;
+    width: 100%;
   }
 
   .menuBox:hover h3 {
+    width: 75%;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow-x: hidden;
+  }
+  
+  .menuBox:hover .checkAnimation {
+    margin-left: 80px;
   }
 }
