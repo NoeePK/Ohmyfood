@@ -1,0 +1,26 @@
+/*Bg image*/
+
+#Palette, #Note, #France, #Delice {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 320px;
+    max-width: 600px;
+    flex-basis: 100%;
+    margin-bottom: -50px;
+}
+
+#Palette {
+    background-image: url(/images/restaurants/Palette_medium.jpg); 
+}
+
+#Note {
+    background-image: url(/images/restaurants/Note_recadre.jpg);
+}
+
+#France {
+    background-image: url(/images/restaurants/France_medium.jpg);
+}
+
+#Delice {
+    background-image: url(/images/restaurants/Delice_medium.jpg);
+}

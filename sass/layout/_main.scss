@@ -118,32 +118,6 @@ section {
 
 
 /*Pages menu*/
-/*Bg image*/
-
-#Palette, #Note, #France, #Delice {
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 320px;
-    max-width: 600px;
-    flex-basis: 100%;
-    margin-bottom: -50px;
-}
-
-#Palette {
-    background-image: url(/images/restaurants/Palette_medium.jpg); 
-}
-
-#Note {
-    background-image: url(/images/restaurants/Note_recadre.jpg);
-}
-
-#France {
-    background-image: url(/images/restaurants/France_medium.jpg);
-}
-
-#Delice {
-    background-image: url(/images/restaurants/Delice_medium.jpg);
-}
 
 
 /*Section menu*/
@@ -172,11 +146,7 @@ section {
     height: 80px;
     position: relative;
     transition: all 400ms ease-in-out;
-    
-    
 }
-
-
 
 .flex-row {
     display: flex;
@@ -186,14 +156,12 @@ section {
     p {
         margin-top: 1%;
     }
-    
 
     p:first-child {
         font-weight: normal;
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
-        
     }
 }
 
