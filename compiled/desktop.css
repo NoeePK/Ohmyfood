@@ -138,8 +138,25 @@
     flex-basis: 55%;
   }
 
-  .menuBox:hover .price {
-    padding: 0;
+  .price {
+   padding-left: 10px;
   }
 
+  .menuBox {
+    width: 390px;
+  }
+
+  .menuBox h3 {
+    margin-right: auto;
+  }
+
+  .menuBox:hover .checkAnimation {
+    margin-left: 70px;
+  }
+
+  .menuBox:hover h3 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+  }
 }
