@@ -6,17 +6,16 @@
     margin: 0 auto;
   }
 
-  header,
-  nav {
-    background: rgb(255, 121, 218);
-    background: radial-gradient(circle, rgba(255, 121, 218, 0.4822303921568627) 48%, rgba(147, 86, 220, 0.7847514005602241) 100%);
+  header {
+    background-color: #EDEDED;
   }
-
-
+  
   /* Nav */
   nav {
     display: flex;
     flex-direction: column-reverse;
+    background: rgb(255, 121, 218);
+    background: radial-gradient(circle, rgba(255, 121, 218, 0.4822303921568627) 48%, rgba(147, 86, 220, 0.7847514005602241) 100%);
   }
 
   .explore {
@@ -32,7 +31,7 @@
 
   .explore p,
   .explore h1 {
-    background-color: #EDEDED;
+    background-color: white;
     padding: 1%;
     border-radius: 20px;
     box-shadow: 8px 5px 5px 1px rgb(189, 189, 189);
@@ -80,7 +79,7 @@
     padding-bottom: 2%;
   }
 
-  #notice h2, #restaurants h2 {
+  #notice h2, #restaurants h2, #titleRestaurant {
     width: 100%;
   }
 
@@ -126,12 +125,21 @@
   .menuSection {
     width: 90%;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
-  .menuBox {
-    height: 120px;
-    width: 80%;
+  article {
+    flex-basis: 49%;
   }
 
+  #orderBtn {
+    flex-basis: 55%;
+  }
+
+  .menuBox:hover .price {
+    padding: 0;
+  }
 
 }

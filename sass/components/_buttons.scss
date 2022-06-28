@@ -144,6 +144,7 @@ button {
 
     .checkAnimation {
         width: 68px;
+        
         margin-left: auto;
         transition: all 400ms ease-in-out;
 
@@ -160,9 +161,12 @@ button {
     p:first-child {
         text-overflow: ellipsis;
         white-space: nowrap;
-        overflow: hidden;
-        
+        overflow: hidden;   
+    }
 
-         
+    h2 {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
     }
 }
