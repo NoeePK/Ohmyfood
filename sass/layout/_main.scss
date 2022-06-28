@@ -11,7 +11,7 @@ body {
 #notice {
     background-color: white;
     padding-bottom: 15%;
-    
+
     h2 {
         padding-left: 1%;
         margin-bottom: 1%;
@@ -105,7 +105,7 @@ section {
 .description {
     display: flex;
     flex-direction: row;
-    align-items:flex-start;
+    align-items: flex-start;
     padding: 3% 0 0 5%;
     font-size: 1.4em;
 
@@ -146,6 +146,7 @@ section {
     h3 {
         padding: 0;
         margin: 0;
+        width: 100%;
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow-x: hidden;
@@ -155,7 +156,7 @@ section {
 .flex-row {
     display: flex;
     flex-direction: row;
-    font-size: 18px; 
+    font-size: 18px;
 
     p {
         margin-top: .7%;
@@ -172,9 +173,9 @@ section {
 
 .price {
     align-items: flex-end;
-    text-align: right; 
+    text-align: right;
     margin-left: auto;
     font-weight: bold;
+    padding-left: 10px;
     transition: all 400ms ease-in-out;
 }
-

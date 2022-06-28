@@ -9,7 +9,7 @@
   header {
     background-color: #EDEDED;
   }
-  
+
   /* Nav */
   nav {
     display: flex;
@@ -51,7 +51,7 @@
   #notice {
     background-color: #f5f5f5fa;
   }
-  
+
   .noticeBox {
     background-color: white;
     margin: 2% 0 2% 1%;
@@ -69,7 +69,8 @@
 
   /* Commun aux deux sections */
 
-  #notice, #restaurants {
+  #notice,
+  #restaurants {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -79,7 +80,9 @@
     padding-bottom: 2%;
   }
 
-  #notice h2, #restaurants h2, #titleRestaurant {
+  #notice h2,
+  #restaurants h2,
+  #titleRestaurant {
     width: 100%;
   }
 
@@ -138,25 +141,10 @@
     flex-basis: 55%;
   }
 
-  .price {
-   padding-left: 10px;
-  }
-
   .menuBox {
     width: 390px;
   }
 
-  .menuBox h3 {
-    width: 100%;
-  }
-
-  .menuBox:hover h3 {
-    width: 75%;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow-x: hidden;
-  }
-  
   .menuBox:hover .checkAnimation {
     margin-left: 80px;
   }

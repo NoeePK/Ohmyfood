@@ -153,17 +153,16 @@ button {
 
     .price {
         margin-right: 70px;
-        
-        
     }
 
     p:first-child {
         text-overflow: ellipsis;
         white-space: nowrap;
-        overflow: hidden;   
+        overflow: hidden;
     }
 
     h3 {
+        width: 75%;
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow-x: hidden;
