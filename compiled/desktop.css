@@ -1,26 +1,64 @@
 @media screen and (min-width: 992px) {
 
-  /*Version accueil*/  
+  /*Accueil*/
 
-    body {
-        max-width: 1000px;
-        margin: 0 auto;
-        font-size: larger;
-    }
-
-    header img {
-    width: 400px;
+  body {
+    margin: 0 auto;
   }
 
+  header,
+  nav {
+    background: rgb(255, 121, 218);
+    background: radial-gradient(circle, rgba(255, 121, 218, 0.4822303921568627) 48%, rgba(147, 86, 220, 0.7847514005602241) 100%);
+  }
+
+
+  /* Nav */
   nav {
     display: flex;
     flex-direction: column-reverse;
   }
 
-  
+  .explore {
+    background-color: transparent;
+    background-image: url(/images/restaurants/banner-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: fit-content;
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .explore p,
+  .explore h1 {
+    background-color: #EDEDED;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: 8px 5px 5px 1px rgb(189, 189, 189);
+  }
+
+  .localisation:hover {
+    cursor: text;
+    color: rgb(147, 86, 220);
+  }
+
+  button {
+    margin-top: 1%;
+  }
+
+  /* Notice */
 
   #notice {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
     background-color: #f5f5f5fa;
+  }
+
+  #notice h2 {
+    display: block;
   }
 
   .noticeBox {
@@ -33,14 +71,14 @@
 
   #restaurants {
     background-color: #EDEDED;
-    max-width: 1000px;
+    
     width: 100%;
   }
 
   .card {
     width: 95%;
     height: fit-content;
-    
+
   }
 
   .card>a>img {
@@ -57,31 +95,34 @@
     padding-right: 3%;
   }
 
-/*Version pages menu*/
+  /*Version pages menu*/
 
-body {
-  background-color: white;
-}
+  body {
+    background-color: white;
+  }
 
-#titleRestaurant {
-  font-size: 2em;
-}
+  #titleRestaurant {
+    font-size: 2em;
+  }
 
-#Palette, #Note, #France, #Delice {
-  background-size: contain;
-  background-position: 50%;
-  margin: auto;
-}
+  #Palette,
+  #Note,
+  #France,
+  #Delice {
+    background-size: contain;
+    background-position: 50%;
+    margin: auto;
+  }
 
-.menuSection {
-  width: 90%;
-  margin: auto;
-}
+  .menuSection {
+    width: 90%;
+    margin: auto;
+  }
 
-.menuBox {
-  height: 120px;
-  width: 80%;
-}
+  .menuBox {
+    height: 120px;
+    width: 80%;
+  }
 
 
 }

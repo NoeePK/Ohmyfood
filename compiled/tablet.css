@@ -51,49 +51,50 @@
         font-size: 1.5em;
     }
 
-/*Pages menu*/
+    /*Pages menu*/
+
+    header img {
+        width: 300px;
+    }
+
+    #Palette,
+    #Note,
+    #France,
+    #Delice {
+        height: 500px;
+        background-size: contain;
+        background-position: 50%;
+        margin: auto;
+        max-width: 500px;
+    }
+
+    .menuSection {
+        width: 80%;
+        margin: auto;
+    }
 
 
+    #titleRestaurant {
+        font-size: 2.1em;
+    }
 
-header img {
-    width: 300px;
-}
+    #MenuLikeBtn {
+        font-size: 1.6em;
+        top: 120px;
+    }
 
-#Palette, #Note, #France, #Delice {
-    height: 500px;
-    background-size: contain;
-    background-position: 50%;
-    margin: auto;
-    max-width: 500px;
-}
+    .menuBox {
+        padding-bottom: 4%;
+        height: 100px;
 
-.menuSection {
-    width: 80%;
-    margin: auto;
-  }
+    }
 
+    .menuBox:hover .checkAnimation {
+        width: 90px;
+    }
 
-#titleRestaurant {
-    font-size: 2.1em;
-}
-
-#MenuLikeBtn {
-    font-size: 1.6em;
-    top: 120px;
-}
-
-.menuBox {
-    padding-bottom: 4%;
-    height: 100px;
-    
-}
-
-.menuBox:hover .checkAnimation {
-    width: 90px;
-}
-
-.menuBox:hover .price {
-    margin-right: 95px;
-}
+    .menuBox:hover .price {
+        margin-right: 95px;
+    }
 
 }
