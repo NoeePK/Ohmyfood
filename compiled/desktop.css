@@ -2,12 +2,12 @@
 
   /*Accueil*/
 
-  body {
-    margin: 0 auto;
-  }
-
   header {
     background-color: #EDEDED;
+  }
+
+  header img {
+    width: 30%;
   }
 
   /* Nav */
@@ -15,20 +15,22 @@
     display: flex;
     flex-direction: column-reverse;
     background: rgb(255, 121, 218);
-    background: radial-gradient(circle, rgba(255, 121, 218, 0.4822303921568627) 48%, rgba(147, 86, 220, 0.7847514005602241) 100%);
+    background: radial-gradient(circle, rgba(255, 121, 218, 0.4822303921568627) 48%, #9356dcc8 100%);
   }
 
   .explore {
-    width: 100%;
-    margin: 0 auto;
+    padding-bottom: 7%;
+    background-image: url(/images/background/background-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
 
   .explore p,
   .explore h1 {
-    background-color: white;
+    color: white;
     padding: 1%;
-    border-radius: 20px;
-    box-shadow: 8px 5px 5px 1px rgb(189, 189, 189);
   }
 
   .localisation:hover {
@@ -37,20 +39,24 @@
   }
 
   button {
-    margin-top: 1%;
+    background: linear-gradient(to bottom right, #99e2d0, #45a18a);
+    font-size: 180%;
   }
+
+
 
   /* Notice */
 
   #notice {
     background-color: #f5f5f5fa;
+    align-items: baseline;
   }
 
   .noticeBox {
     background-color: white;
     margin: 2% 0 2% 1%;
     padding: 1%;
-    width: 400px;
+    width: 30%;
   }
 
   .noticeBox i {
@@ -67,8 +73,6 @@
   #restaurants {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -87,18 +91,20 @@
   }
 
   .card {
-    flex-basis: 49%;
-    height: fit-content;
+    width: 48%;
+    height: 100%;
+    min-height: 570px;
   }
 
-  .card:hover {
-    transform: none;
-    opacity: 0.9;
+  .card img {
+    min-height: 456px;
   }
 
   .newItem {
     padding-right: 3%;
   }
+
+
 
   /*Pages menu*/
 
