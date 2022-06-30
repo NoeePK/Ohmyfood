@@ -151,15 +151,11 @@ button {
     }
 
     p:first-child {
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
+        @include Ellipse;
     }
 
     h3 {
         width: 70%;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow-x: hidden;
+        @include Ellipse;
     }
 }
