@@ -15,11 +15,6 @@
         width: 300px;
     }
 
-    #goBack {
-        font-size: 35px;
-        top: 35px;
-    }
-
     /* Background image */
     #Palette,
     #Note,
@@ -31,22 +26,12 @@
 
     /* Section menu */
     .menuSection {
-        width: 80%;
+        width: 85%;
         margin: auto;
-    }
-
-    #titleRestaurant {
-        font-size: 2.1em;
-    }
-
-    #MenuLikeBtn {
-        font-size: 1.6em;
-        top: 120px;
     }
 
     .menuBox {
         padding-bottom: 4%;
-        height: 100px;
     }
 
     .menuBox:hover .checkAnimation {
@@ -54,6 +39,6 @@
     }
 
     .menuBox:hover .price {
-        margin-right: 95px;
+        margin-right: 90px;
     }
 }

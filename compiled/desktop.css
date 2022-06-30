@@ -38,12 +38,10 @@
     color: rgb(147, 86, 220);
   }
 
-  button {
+  #exploreBtn {
     background: linear-gradient(to bottom right, #99e2d0, #45a18a);
     font-size: 180%;
   }
-
-
 
   /* Notice */
 
@@ -120,32 +118,34 @@
   #Note,
   #France,
   #Delice {
-    background-size: contain;
-    background-position: 50%;
-    margin: auto;
+    background-size: cover;
   }
 
   .menuSection {
     width: 90%;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
   article {
-    flex-basis: 49%;
+    flex-basis: 45%;
+    min-width: 388px;
+    height: 100%;
+    margin-bottom: 5%;
+  }
+
+  .menuBox {
+    height: 100%;
+  }
+
+  .menuBox:hover .checkAnimation {
+    margin-left: 80px;
   }
 
   #orderBtn {
     flex-basis: 55%;
   }
 
-  .menuBox {
-    width: 390px;
-  }
-
-  .menuBox:hover .checkAnimation {
-    margin-left: 80px;
-  }
 }

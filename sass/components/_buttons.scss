@@ -12,7 +12,6 @@ button {
     color: white;
     font-size: 1.3em;
     font-weight: 700;
-    
 
     &:hover {
         background: linear-gradient(to bottom right, #ff79d9d8, #9256dcd8);
@@ -22,11 +21,8 @@ button {
 
 #orderBtn {
     color: white;
-    font-size: 19px;
-    width: 200px;
+    padding: 4% 12%;
     margin: 10% auto 5% auto;
-    height: 60px;
-    padding: 0;
 }
 
 /*Button "Nouveau"*/
@@ -84,9 +80,9 @@ button {
 
 #MenuLikeBtn {
     position: absolute;
-    right: 40px;
-    top: 105px;
-    font-size: 20px;
+    right: 4%;
+    top: 140px;
+    font-size: 35px;
 }
 
 /*Button go back*/
@@ -95,11 +91,9 @@ button {
     background: none;
     border: none;
     color: black;
-    font-size: 25px;
-    margin-left: -50px;
+    font-size: 200%;
     position: absolute;
-    left: 80px;
-    top: 18px;
+    left: 60px;
     cursor: pointer;
     transition: all 200ms ease-in-out;
 
@@ -120,7 +114,7 @@ button {
     background-color: $tertiary;
     color: white;
     font-size: 25px;
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 20px 20px 0;
     transition: all 350ms ease-in-out;
     animation-fill-mode: both;
     overflow: hidden;
@@ -144,7 +138,7 @@ button {
 .menuBox:hover {
 
     .checkAnimation {
-        width: 68px;
+        width: 70px;
         transition: all 400ms ease-in-out;
 
         i {

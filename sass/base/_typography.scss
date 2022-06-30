@@ -23,24 +23,23 @@ h2 {
 
 #titleRestaurant {
     font-family: 'Shrikhand', cursive;
-    font-size: 2em;
+    font-size: 220%;
     font-weight: normal;
+    width: 90%;
+    padding-right: 5%;
 }
 
 article h2 {
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 1.2em;
+    font-size: 1.3em;
 
     .greenLine {
-        border-bottom: 3px solid $tertiary;
+        border-bottom: 4px solid $tertiary;
         padding-bottom: 6px;
     }
 }
 
-.menuBox h3 {
-    font-size: 20px;
-}
 
 /*Titre footer*/
 
