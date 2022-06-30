@@ -130,18 +130,14 @@
   }
 
   article {
-    flex-basis: 45%;
+    flex-basis: 47%;
     min-width: 388px;
     height: 100%;
     margin-bottom: 5%;
   }
 
-  .menuBox {
-    height: 100%;
-  }
-
   .menuBox:hover .checkAnimation {
-    margin-left: 80px;
+    margin-left: 30%;
   }
 
   #orderBtn {
