@@ -31,49 +31,69 @@
         width: 0;
         z-index: -10;
         display: none;
-
     }
 }
 
-.heart {
-    position: fixed;
-    top: 25%;
-    left: 45%;
-    width: 120px;
-    height: 120px;
-    font-size: 60px;
-    margin: auto;
-    animation: loader--heart 2700ms alternate infinite;
-
-    .heart-full {
-        opacity: 1;
-    }
+.welcomeMssg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
 }
 
-@keyframes loader--heart {
+.letter {
+    animation: letters 1s alternate infinite;
+    animation-delay: 0.50s;
+}
+
+@keyframes letters {
     0% {
-        transform: scale(.7);
-    }
-
-    30% {
-        transform: scale(2);
+        transform: translateY(0);
+        color: $secondary;
     }
 
     50% {
-        transform: scale(.8);
-    }
-
-    70% {
-        transform: scale(2);
-    }
-
-    90% {
-        transform: scale(.6);
+        transform: translateY(100px);
+        color: $primary;
     }
 
     100% {
-        transform: scale(0);
+        transform: translateY(0);
+        color: $tertiary;
     }
+}
+
+.letter1 {
+    animation-delay: 100ms;
+}
+
+.letter2 {
+    animation-delay: 200ms;
+}
+
+.letter3 {
+    animation-delay: 300ms;
+}
+
+.letter4 {
+    animation-delay: 400ms;
+}
+
+.letter5 {
+    animation-delay: 500ms;
+}
+
+.letter6 {
+    animation-delay: 600ms;
+}
+
+.letter7 {
+    animation-delay: 700ms;
+}
+
+.letter8 {
+    animation-delay: 800ms;
 }
 
 
