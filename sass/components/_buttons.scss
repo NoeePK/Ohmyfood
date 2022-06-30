@@ -2,7 +2,7 @@
 
 button {
     background: linear-gradient(to bottom right, $secondary, $primary );
-    padding: 18px;
+    padding: 4%;
     border: none;
     border-radius: 40px;
     box-shadow: 3px 6px 8px 1px lightgrey;
@@ -11,7 +11,8 @@ button {
     transition: all 350ms ease-in-out;
     color: white;
     font-size: 1.3em;
-
+    font-weight: 700;
+    
 
     &:hover {
         background: linear-gradient(to bottom right, #ff79d9d8, #9256dcd8);
