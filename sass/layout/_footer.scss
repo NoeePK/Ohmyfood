@@ -24,6 +24,10 @@ footer {
     }
 }
 
+.fa-utensils {
+    margin-right: 1%;
+}
+
 // Underline seulement sur les textes,
 // pas sous les icons
 
@@ -35,12 +39,4 @@ footer {
     i {
         color: $tertiary;
     }
-}
-
-.linkOnly:hover {
-    text-decoration: underline $tertiary;
-}
-
-.fa-utensils {
-    margin-right: 1%;
 }

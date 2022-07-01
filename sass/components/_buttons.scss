@@ -85,28 +85,6 @@ button {
     font-size: 35px;
 }
 
-/*Button go back*/
-
-#goBack {
-    background: none;
-    border: none;
-    color: black;
-    font-size: 200%;
-    position: absolute;
-    left: 60px;
-    cursor: pointer;
-    transition: all 200ms ease-in-out;
-
-    &:hover {
-        color: $primary;
-
-        &:active {
-            color: $secondary;
-        }
-    }
-}
-
-
 /*Button menu choice*/
 
 .checkAnimation {

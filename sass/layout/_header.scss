@@ -12,3 +12,24 @@ header {
 .withBtn {
     position: relative;
 }
+
+/*Button*/
+
+#goBack {
+    position: absolute;
+    left: 60px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 200%;
+    transition: all 200ms ease-in-out;
+
+    &:hover {
+        color: $primary;
+
+        &:active {
+            color: $secondary;
+        }
+    }
+}

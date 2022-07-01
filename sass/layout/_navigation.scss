@@ -1,12 +1,11 @@
 nav {
-    background-color: $shadows-light;
+    background-color: $lightBackground;
     text-align: center;
 }
 
 .localisation {
-    background-color: darken($color: $shadows, $amount: 3%);
-    border-top: 3px solid darken($color: $shadows, $amount: 10%);
-    flex-basis: 100%;
+    background-color: darken($color: $darkBackground, $amount: 3%);
+    border-top: 3px solid darken($color: $darkBackground, $amount: 10%);
     font-weight: bold;
     font-size: 1.5em;
     display: flex;
