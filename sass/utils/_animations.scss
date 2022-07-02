@@ -1,0 +1,96 @@
+/*Animation : Delais d'apparition des box*/
+
+@keyframes menuBoxes {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.menuBox {
+    transform: scale(0);
+    animation: menuBoxes 900ms both;
+}
+
+.delay1 {
+    animation-delay: 100ms;
+}
+
+.delay2 {
+    animation-delay: 200ms;
+}
+
+.delay3 {
+    animation-delay: 300ms;
+}
+
+.delay4 {
+    animation-delay: 350ms;
+}
+
+.delay5 {
+    animation-delay: 370ms;
+}
+
+
+
+
+/*Animation : choix du menu*/
+
+.checkAnimation {
+    width: 0px;
+    background-color: $tertiary;
+    color: white;
+    font-size: 25px;
+    border-radius: 0 20px 20px 0;
+    transition: all 350ms ease-in-out;
+    animation-fill-mode: both;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+
+    i {
+        transform: rotate(0);
+        transition: all 450ms ease-in-out;
+    }
+}
+
+.menuBox:hover {
+
+    .checkAnimation {
+        width: 70px;
+        transition: all 400ms ease-in-out;
+
+        i {
+            transform: rotate(360deg);
+        }
+    }
+
+    .price {
+        margin-right: 70px;
+    }
+
+    p:first-child {
+        @include Ellipse;
+    }
+
+    h3 {
+        width: 70%;
+        @include Ellipse;
+    }
+}
+
+.menuBox:active {
+    @include boxShadow($tertiary);
+}

@@ -1,20 +1,20 @@
-/*Button principal*/
+/*Bouton principal*/
 
-button {
-    background: linear-gradient(to bottom right, $secondary, $primary );
-    padding: 4%;
+#exploreBtn, #orderBtn {
     border: none;
     border-radius: 40px;
     box-shadow: 3px 6px 8px 1px lightgrey;
-    cursor: pointer;
-    margin-top: 4%;
-    transition: all 350ms ease-in-out;
     color: white;
     font-size: 1.3em;
     font-weight: 700;
+    cursor: pointer;
+    padding: 4%;
+    margin-top: 4%;
+    background: linear-gradient(to bottom right, $secondary, $primary);
+    transition: all 350ms ease-in-out;
 
     &:hover {
-        background: linear-gradient(to bottom right, #ff79d9d8, #9256dcd8);
+        background: linear-gradient(to bottom right, lighten($color: $secondary, $amount: 5%), lighten($color: $primary, $amount: 5%));
         box-shadow: 8px 18px 10px 1px rgb(189, 189, 189);
     }
 }
@@ -25,7 +25,8 @@ button {
     margin: 10% auto 5% auto;
 }
 
-/*Button "Nouveau"*/
+
+/*Bouton "Nouveau"*/
 
 .newItem {
     color: darken($color: $tertiary, $amount: 40%);
@@ -35,19 +36,20 @@ button {
     font-size: 17px;
     padding: 2% 4%;
     width: fit-content;
+    border: none;
     border-radius: 3px;
     position: absolute;
     top: 20px;
     right: 15px;
 }
 
-/*Button "J'aime"*/
+/*Bouton "J'aime"*/
 
 .heart-empty,
 .heart-full {
-    font-size: 1.6em;
-    right: 30px;
-    bottom: 35px;
+    font-size: 2em;
+    right: 40px;
+    bottom: 55px;
     cursor: pointer;
     transition: all 650ms ease-in-out;
 }
@@ -57,7 +59,7 @@ button {
     z-index: 1;
     position: absolute;
 
-    &:hover {
+    &:active {
         opacity: 0;
         z-index: 2;
     }
@@ -72,7 +74,7 @@ button {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    &:hover {
+    &:active {
         opacity: 1;
         z-index: 1;
     }
@@ -83,61 +85,4 @@ button {
     right: 4%;
     top: 140px;
     font-size: 35px;
-}
-
-/*Button menu choice*/
-
-.checkAnimation {
-    width: 0px;
-    background-color: $tertiary;
-    color: white;
-    font-size: 25px;
-    border-radius: 0 20px 20px 0;
-    transition: all 350ms ease-in-out;
-    animation-fill-mode: both;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    top: 0px;
-
-    i {
-        transform: rotate(0);
-        transition: all 450ms ease-in-out;
-    }
-}
-
-.menuBox:hover {
-
-    .checkAnimation {
-        width: 70px;
-        transition: all 400ms ease-in-out;
-
-        i {
-            transform: rotate(360deg);
-        }
-    }
-
-    .price {
-        margin-right: 70px;
-    }
-
-    p:first-child {
-        @include Ellipse;
-    }
-
-    h3 {
-        width: 70%;
-        @include Ellipse;
-    }
-}
-
-.menuBox:active {
-    @include boxShadow($tertiary);
 }
