@@ -43,6 +43,10 @@
     font-size: 180%;
   }
 
+  #exploreBtn:hover {
+    background: linear-gradient(to bottom right, #9de2d1, #4ca58f);
+  }
+
   /* Notice */
 
   #notice {
