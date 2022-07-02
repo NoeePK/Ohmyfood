@@ -115,14 +115,14 @@
   }
 
   #titleRestaurant {
-    font-size: 2em;
+    font-size: 2.2em;
   }
 
   #Palette,
   #Note,
   #France,
   #Delice {
-    background-size: cover;
+    background-position: center;
   }
 
   .menuSection {
@@ -137,11 +137,25 @@
     flex-basis: 47%;
     min-width: 388px;
     height: 100%;
+    margin-bottom: 7%;
+  }
+
+  article h2 {
+    margin-bottom: 10%;
+  }
+
+  .menuBox {
     margin-bottom: 5%;
+    padding: 5%;
   }
 
   .menuBox:hover .checkAnimation {
-    margin-left: 30%;
+    margin-left: 40%;
+    width: 25%;
+  }
+
+  .menuBox:hover .price {
+    margin-right: 25%;
   }
 
   #orderBtn {

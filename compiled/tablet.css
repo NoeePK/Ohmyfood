@@ -30,15 +30,11 @@
         margin: auto;
     }
 
-    .menuBox {
-        padding-bottom: 4%;
-    }
-
     .menuBox:hover .checkAnimation {
-        width: 90px;
+        width: 20%;
     }
 
     .menuBox:hover .price {
-        margin-right: 90px;
+        margin-right: 20%;
     }
 }
