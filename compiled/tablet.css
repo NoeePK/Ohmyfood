@@ -30,11 +30,15 @@
         margin: auto;
     }
 
-    .menuBox:hover .checkAnimation {
+    .menuBox:active .checkAnimation {
         width: 20%;
     }
 
-    .menuBox:hover .price {
+    .menuBox:active h3 {
+        width: 60%;
+    }
+
+    .menuBox:active .price {
         margin-right: 20%;
     }
 }

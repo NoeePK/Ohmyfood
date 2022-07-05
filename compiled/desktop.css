@@ -149,12 +149,12 @@
     padding: 5%;
   }
 
-  .menuBox:hover .checkAnimation {
+  .menuBox:active .checkAnimation {
     margin-left: 40%;
     width: 25%;
   }
 
-  .menuBox:hover .price {
+  .menuBox:active .price {
     margin-right: 25%;
   }
 

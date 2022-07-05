@@ -66,7 +66,7 @@
     }
 }
 
-.menuBox:hover {
+.menuBox:active {
 
     .checkAnimation {
         width: 15%;
@@ -91,6 +91,6 @@
     }
 }
 
-.menuBox:active {
+.menuBox:hover {
     @include boxShadow($tertiary);
 }
