@@ -3,10 +3,12 @@
 @import"sass/utils/loader";
 @import"sass/utils/animations";
 @import"sass/base/typography";
-@import"sass/layout/main-accueil";
-@import"sass/layout/main-menus";
+@import"sass/base/general-rules";
+@import"sass/pages/main-accueil";
+@import"sass/pages/main-menus";
 @import"sass/layout/header";
 @import"sass/layout/footer";
 @import"sass/layout/navigation";
 @import"sass/components/buttons";
+@import"sass/components/box";
 @import"sass/components/bg-images";
