@@ -3,7 +3,7 @@
   /*Accueil*/
 
   header {
-    background-color: #EDEDED;
+    background-color: #99e2d04a;
   }
 
   header img {
@@ -12,8 +12,7 @@
 
   /* Nav */
   nav {
-    display: flex;
-    flex-direction: column-reverse;
+
     background: rgb(255, 121, 218);
     background: radial-gradient(circle, rgba(255, 121, 218, 0.8) 48%, #9356dcc8 100%);
   }
@@ -40,7 +39,8 @@
 
   #exploreBtn {
     background: linear-gradient(to bottom right, #99e2d0, #45a18a);
-    font-size: 180%;
+    font-size: 150%;
+    padding: 2% 3%;
   }
 
   #exploreBtn:hover {
@@ -71,8 +71,7 @@
 
   /* Commun aux deux sections */
 
-  #notice,
-  #restaurants {
+  #notice {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -81,7 +80,6 @@
   }
 
   #notice h2,
-  #restaurants h2,
   #titleRestaurant {
     width: 100%;
   }
@@ -105,7 +103,6 @@
   .newItem {
     padding-right: 3%;
   }
-
 
 
   /*Pages menu*/
@@ -144,9 +141,21 @@
     margin-bottom: 10%;
   }
 
+  article:nth-of-type(3) {
+    margin: 0 auto;
+  }
+
   .menuBox {
     margin-bottom: 5%;
     padding: 5%;
+  }
+
+  .menuBox h3 {
+    width: 80%;
+  }
+
+  .menuBox:active h3 {
+    width: 60%;
   }
 
   .menuBox:active .checkAnimation {
@@ -159,7 +168,8 @@
   }
 
   #orderBtn {
-    flex-basis: 55%;
+    flex-basis: 100%;
+    padding: 2%;
   }
 
 }

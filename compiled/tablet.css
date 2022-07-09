@@ -2,13 +2,60 @@
 
     /*Accueil*/
 
-    /* Pas de modifications nécessaires dans cette mediaquery */
+    header {
+        background-color: #99e2d0ab;
+        border-bottom: 3px solid #99e2d063;
+    }
 
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .localisation {
+        background-color: #99e2d063;
+        border-top: 3px solid #99e2d063;
+    }
+
+    #exploreBtn {
+        padding: 3%;
+        width: 50%;
+    }
+
+
+    #restaurants {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    #restaurants h2 {
+        width: 100%;
+        flex-basis: 100%;
+    }
+
+    .card {
+        flex-basis: 49%;
+        min-height: 500px;
+    }
+
+    .heart-empty,
+    .heart-full {
+        right: 30px;
+        bottom: 40px;
+    }
 
     /*Pages menu*/
 
     body {
         background-color: white;
+    }
+
+    .withBtn {
+        background-color: #EDEDED;
+        border-bottom: 3px solid #EDEDED;
     }
 
     header img {
@@ -35,10 +82,15 @@
     }
 
     .menuBox:active h3 {
-        width: 60%;
+        width: 70%;
     }
 
     .menuBox:active .price {
         margin-right: 20%;
+    }
+
+    #orderBtn {
+        width: 100%;
+        padding: 3%;
     }
 }
