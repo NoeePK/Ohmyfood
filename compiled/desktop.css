@@ -2,17 +2,12 @@
 
   /*Accueil*/
 
-  header {
-    background-color: #99e2d04a;
-  }
-
   header img {
     width: 30%;
   }
 
   /* Nav */
   nav {
-
     background: rgb(255, 121, 218);
     background: radial-gradient(circle, rgba(255, 121, 218, 0.8) 48%, #9356dcc8 100%);
   }
@@ -171,5 +166,4 @@
     flex-basis: 100%;
     padding: 2%;
   }
-
 }

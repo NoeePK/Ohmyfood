@@ -2,26 +2,22 @@
 
     /*Accueil*/
 
-    header {
-        background-color: #99e2d0ab;
-        border-bottom: 3px solid #99e2d063;
-    }
-
     nav {
         display: flex;
         flex-direction: column-reverse;
+        background: rgb(255, 121, 218);
+        background: radial-gradient(circle, rgba(237, 237, 237, 0.784) 48%, rgba(153, 226, 208, 0.8) 100%);
     }
 
     .localisation {
-        background-color: #99e2d063;
-        border-top: 3px solid #99e2d063;
+        background-color: transparent;
+        border-top: 3px solid transparent;
     }
 
     #exploreBtn {
         padding: 3%;
         width: 50%;
     }
-
 
     #restaurants {
         display: flex;
@@ -53,11 +49,6 @@
         background-color: white;
     }
 
-    .withBtn {
-        background-color: #EDEDED;
-        border-bottom: 3px solid #EDEDED;
-    }
-
     header img {
         width: 300px;
     }
@@ -73,7 +64,7 @@
 
     /* Section menu */
     .menuSection {
-        width: 85%;
+        width: 80%;
         margin: auto;
     }
 
