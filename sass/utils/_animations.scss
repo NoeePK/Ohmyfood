@@ -20,19 +20,19 @@
 }
 
 .delay2 {
-    animation-delay: 200ms;
+    animation-delay: 180ms;
 }
 
 .delay3 {
-    animation-delay: 300ms;
+    animation-delay: 250ms;
 }
 
 .delay4 {
-    animation-delay: 350ms;
+    animation-delay: 300ms;
 }
 
 .delay5 {
-    animation-delay: 370ms;
+    animation-delay: 350ms;
 }
 
 
@@ -87,9 +87,7 @@
 
     h3 {
         padding-right: 10%;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
+        @include Ellipse;
     }
 }
 
