@@ -41,7 +41,8 @@
 
 .letter {
     
-    animation: 1s alternate 0.50s infinite letters;
+    animation: 1s alternate 0.50s letters;
+    animation-iteration-count: 2;
 }
 
 @keyframes letters {
