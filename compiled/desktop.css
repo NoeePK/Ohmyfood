@@ -8,8 +8,7 @@
 
   /* Nav */
   nav {
-    background: rgb(255, 121, 218);
-    background: radial-gradient(circle, rgba(255, 121, 218, 0.8) 48%, #9356dcc8 100%);
+    background: radial-gradient(circle, #ff79da 48%, #9356dc 100%);
   }
 
   .explore {

@@ -5,8 +5,8 @@
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background: rgb(255, 121, 218);
-        background: radial-gradient(circle, rgba(237, 237, 237, 0.784) 48%, rgba(153, 226, 208, 0.8) 100%);
+        background: radial-gradient(circle, #ededed 30%, #99e2d0 100%);
+        
     }
 
     .localisation {
