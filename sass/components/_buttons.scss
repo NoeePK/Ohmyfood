@@ -47,26 +47,25 @@
 
 .heart-empty,
 .heart-full {
+    position: absolute;
     font-size: 2em;
     right: 40px;
     bottom: 55px;
     cursor: pointer;
-    transition: all 650ms ease-in-out;
+    transition: all 450ms ease-in-out;
 }
 
 .heart-empty {
     color: grey;
     z-index: 1;
-    position: absolute;
 
-    &:active {
+    &:hover {
         opacity: 0;
         z-index: 2;
     }
 }
 
 .heart-full {
-    position: absolute;
     z-index: 2;
     opacity: 0;
     background: -webkit-linear-gradient($primary, $secondary);
@@ -74,7 +73,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    &:active {
+    &:hover {
         opacity: 1;
         z-index: 1;
     }
