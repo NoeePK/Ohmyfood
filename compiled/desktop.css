@@ -4,10 +4,13 @@
 
   header img {
     width: 30%;
+    max-width: 370px;
   }
 
   /* Nav */
   nav {
+    display: flex;
+    flex-direction: column-reverse;
     background: radial-gradient(circle, #ff79da 48%, #9356dc 100%);
   }
 
@@ -26,11 +29,6 @@
     padding: 1%;
   }
 
-  .localisation:hover {
-    cursor: text;
-    color: rgb(147, 86, 220);
-  }
-
   #exploreBtn {
     background: linear-gradient(to bottom right, #99e2d0, #45a18a);
     font-size: 150%;
@@ -39,6 +37,10 @@
 
   #exploreBtn:hover {
     background: linear-gradient(to bottom right, #9de2d1, #4ca58f);
+  }
+
+  .localisation {
+    border-top: transparent;
   }
 
   /* Notice */

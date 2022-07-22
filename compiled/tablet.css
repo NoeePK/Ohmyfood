@@ -3,15 +3,13 @@
     /*Accueil*/
 
     nav {
-        display: flex;
-        flex-direction: column-reverse;
-        background: radial-gradient(circle, #ededed 30%, #99e2d0 100%);
-        
+        background: #ededed;
     }
 
     .localisation {
-        background-color: transparent;
-        border-top: 3px solid transparent;
+        background: linear-gradient(to bottom right, #ff79da, #9356dc);
+        border-top: 3px solid white;
+        color: white;
     }
 
     #exploreBtn {
